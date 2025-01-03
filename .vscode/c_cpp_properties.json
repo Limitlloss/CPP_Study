@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "d:/software/mingw/include/**",
+                "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++",
+                "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/mingw32",
+                "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/backward",
+                "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include",
+                "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../include",
+                "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "compilerPath": "D:/Software/MinGW/bin/gcc.exe",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceRoot}",
+                    "d:/software/mingw/include/**",
+                    "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++",
+                    "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/mingw32",
+                    "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include/c++/backward",
+                    "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include",
+                    "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../include",
+                    "d:/software/mingw/bin/../lib/gcc/mingw32/9.2.0/include-fixed"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
