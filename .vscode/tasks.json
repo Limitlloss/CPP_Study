@@ -2,14 +2,13 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build",
+            "label": "Build Project",
             "type": "shell",
-            "command": "g++",
+            "command": "mkdir -p ${fileDirname}/output && g++", // 先创建目录再编译
             "args": [
                 "-g",
                 "${file}",
                 "-o",
-                "&& mkdir ${fileDirname}\\output",  
                 "${fileDirname}/output/${fileBasenameNoExtension}.exe"
             ],
             "group": "build"
@@ -23,7 +22,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}/output/${fileBasenameNoExtension}.exe" // 修正输出路径
             ],
             "options": {
                 "cwd": "D:/Software/C++/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin"
