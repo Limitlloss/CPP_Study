@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int calcu_num;
-    cout << "请输入int类型数字，然后将会返回该值的2倍：" << endl;
+    cout << "请输入int类 型数字，然后将会返回该值的2倍：" << endl;
 
     // 尝试读取用户输入
     if (!(cin >> calcu_num)) { // 检查输入是否有效
