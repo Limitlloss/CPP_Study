@@ -7,9 +7,9 @@ using namespace std;
  *@exception	列出函数可能抛出的异常。
  *@note	需要读者特别注意的信息。
  *@warning	警告信息，例如函数的潜在风险或副作用。
- *@par 示例代码	提供调用函数的实际代码示例，使用 @code 和 @endcode 包围代码。
+ *@par 示例代码	提供调用函数的实际代码 示例，使用 @code 和 @endcode 包围代码。
  */
-int main()
+int main(void)
 {
     cout << "Hello World" << endl;
     system("pause");
