@@ -6,7 +6,7 @@
 
 #include <iostream>
 using namespace std;
- 
+
 int main()
 {
     int i = 1024;
@@ -20,7 +20,7 @@ int main()
 /*
 #include <iostream>
 using namespace std;
- 
+
 int main()
 {
     int i = 1024;
@@ -34,7 +34,7 @@ int main()
 /*
 #include <iostream>
 using namespace std;
- 
+
 int main()
 {
     int i = 1024;
@@ -50,14 +50,14 @@ int main()
 /*
 #include <iostream>
 using namespace std;
- 
+
 int main()
 {
     int i = 1024, j = 2048;
- 
+
     cout << "i:" << &i << endl;
     cout << "j:" << &j << endl;
- 
+
     auto fun1 = [=, &i]{ // 默认拷贝外部所有变量，但引用变量 i
         cout << "i:" << &i << endl;
         cout << "j:" << &j << endl;
@@ -70,13 +70,13 @@ int main()
 /*
 #include <iostream>
 using namespace std;
- 
+
 int main()
 {
     int i = 1024, j = 2048;
- 
+
     cout << "outside i value:" << i << " addr:" << &i << endl;
- 
+
     auto fun1 = [i]{
         cout << "inside  i value:" << i << " addr:" << &i << endl;
         // cout << j << endl; // j 未捕获
@@ -89,7 +89,7 @@ int main()
 /*
 #include <iostream>
 using namespace std;
- 
+
 class test
 {
 public:
@@ -103,7 +103,7 @@ public:
         fun();
     }
 };
- 
+
 int main()
 {
     test t;
@@ -111,7 +111,7 @@ int main()
 }
 
 */
-/*
+
 int main()
 {
     int result = [](int a, int b)
@@ -120,4 +120,3 @@ int main()
     }(5, 10);
     std::cout << "result=" << result << std::endl;
 }
- */
