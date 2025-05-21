@@ -64,7 +64,10 @@
       "cwctype": "cpp",
       "memory_resource": "cpp",
       "optional": "cpp",
-      "string_view": "cpp"
+      "string_view": "cpp",
+      "thread": "cpp",
+      "chrono": "cpp",
+      "ratio": "cpp"
     },
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "aiXcoder.showTrayIcon": true
