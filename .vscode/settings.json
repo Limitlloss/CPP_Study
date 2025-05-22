@@ -68,7 +68,8 @@
       "thread": "cpp",
       "chrono": "cpp",
       "ratio": "cpp",
-      "codecvt": "cpp"
+      "codecvt": "cpp",
+      "csignal": "cpp"
     },
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "aiXcoder.showTrayIcon": true
